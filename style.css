@@ -13,6 +13,7 @@ background-position: center;
 background-size: cover;
 padding: 10px 10%;
 overflow: hidden;
+position: relative;
 }
 
 nav{
@@ -52,5 +53,36 @@ nav ul li{
     border-radius: 30px;
     border-top-right-radius: 0;
     font-size: 14px;
+    transition: 0.5s;
  }
+.content{
+    margin-top: 20%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 80px;
+    color: #222;
+    font-weight: 700;
+}
 
+.content p{
+    margin: 10px 0 30px;
+}
+
+.content .dwn-btn{
+    padding: 15px 80px;
+}
+
+.dwn-btn:hover{
+    border-top-right-radius: 30px;
+}
+
+.body-content{
+    display: flex;
+}
+.Feature-img{
+width: 600px;
+   position: absolute;
+   bottom: 0;
+   right: 10%;
+}
